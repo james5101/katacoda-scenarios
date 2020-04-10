@@ -5,7 +5,7 @@
   "time": "10",
   "details": {
     "assets":{
-      "client": [
+      "host01": [
         {
           "file":"env.template",
           "trarget": "~/"
