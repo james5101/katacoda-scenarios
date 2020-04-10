@@ -4,6 +4,15 @@
   "difficulty": "Intermediate",
   "time": "10",
   "details": {
+    "assets":{
+      "client": [
+        {
+          "file":"env.template",
+          "trarget": "~/"
+        }
+      ]
+    },
+  
     "steps": [
       {
         "title": "Step 1",
