@@ -5,11 +5,11 @@
   "time": "10",
   "details": {
     "assets": { 
-      "host01": 
+      "client": 
       [ 
         {
           "file": "makefile", 
-          "target": "/root"
+          "target": "~/"
          } 
       ] 
     },
