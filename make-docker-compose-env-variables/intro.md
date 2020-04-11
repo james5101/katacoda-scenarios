@@ -1,1 +1,1 @@
-Welcome! Today we will be learning how to pass environment variables to our docker compose file via make. This pattern follows the practices providered by 3musketeers. 
+Welcome! Today we will be learning how to pass environment variables to our docker compose file via make. This pattern follows the practices providered by 3musketeers (https://3musketeers.io/). 
