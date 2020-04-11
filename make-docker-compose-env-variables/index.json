@@ -8,7 +8,7 @@
       "host01": [
         {
           "file":"env.template",
-          "trarget": "~/"
+          "target": "~/"
         }
       ]
     },
