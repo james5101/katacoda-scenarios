@@ -50,10 +50,6 @@
   "environment": {
     "uilayout": "editor-terminal"
   },
-  "files":[
-    "env.template"
-  
-  ],
   "backend": {
     "imageid": "docker"
   }
