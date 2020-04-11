@@ -13,7 +13,7 @@
         },
         {
           "file": "env.template", 
-          "target": "./"
+          "target": "~/"
         }
       ] 
     },
