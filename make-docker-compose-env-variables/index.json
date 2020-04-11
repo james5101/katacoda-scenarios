@@ -10,7 +10,11 @@
         {
           "file": "makefile", 
           "target": "~/"
-         } 
+        },
+        {
+          "file": "env.template", 
+          "target": "./"
+        }
       ] 
     },
   
