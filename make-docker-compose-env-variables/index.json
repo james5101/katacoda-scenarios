@@ -24,15 +24,15 @@
   
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 env.template File",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 Create a .env File",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 Review docker-compose.yml",
         "text": "step3.md"
       },
       {
