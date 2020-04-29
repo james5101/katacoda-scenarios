@@ -7,5 +7,5 @@ Lets create a Makefile in the editor or by clicking the test below and add a tar
 
 ## Task
 Lets create our first target inside the Makefile. This will be a simple target that prints ```Hello World``` to the screen.
-```"echo:\n\\echo 'Hello World'" >> Makefile`{{execute}}
-```make echo```{{execute}}
+`"echo:\n\\echo 'Hello World'" >> Makefile`{{execute}}
+`make echo`{{execute}}
