@@ -3,7 +3,7 @@ Compose is a tool for defining and running multi-container Docker applications. 
 
 ## Task
 Lets update our project to use docker-compose. First thing we need to do is to add a docker-compose.yml file. Lets create a docker-compose.yml file in the editor or by clicking the text below.
-`touch docker-compose.yml`{{execute}
+`touch docker-compose.yml`{{execute}}
 
 ## Task
 The next thing we must do is to load up our docker-compose.yml file. Lets keep it simple and add 1 service. Lets add a service of 'alpine' that pulls down the alpine image. Add the following code to the docker-compose.yml file. 
