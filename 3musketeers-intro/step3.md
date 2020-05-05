@@ -24,3 +24,5 @@ echo:
 ## Task
 Finally, let's run our make target. Either type ```make echo``` in the terminal or click the following:
 `make echo`{{execute}}
+
+This was a super simple example of compose, but it is very powerful, to learn more about compose, follow this link https://docs.docker.com/compose/
