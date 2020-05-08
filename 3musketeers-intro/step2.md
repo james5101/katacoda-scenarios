@@ -8,6 +8,7 @@ Our echo target should now look like the following snippet:
 echo:
 	docker run --rm alpine echo 'Hello, World!'
 ```
+In this command, we're telling `docker` to start a container based on the `alpine` image, run the `echo 'Hello, World!'` command inside that container, then remove (`--rm`) the container when it is finished.  Alpine is a very slim Linux distribution.
 
 ## Task
 Finally, lets run make echo again and see our results. Either type ```make echo``` in the terminal or click the following:
