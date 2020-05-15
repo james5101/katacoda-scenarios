@@ -4,15 +4,21 @@ Containers offer a logical packaging mechanism in which applications can be abst
 Lets open the Dockerfile and take a look at whats going on. We have a pretty simple dockerfile that pulls down a python image, adds out script to it then runs that script. 
 
 Lets try to build our image.
+
 `docker build -t printvar .`{{execute}}
 
 Next lets see if our image was created sucesfully.
+
 `docker images`{{execute}}
 
-We should see an image with a tag of printvar:latest. Excecellent
+We should see an image with a tag of printvar:latest. Excellent
 
 Lets run our image and see our output.
+
 `docker run printvar`{{execute}}
 
 We should see some output, but we see `None` for the variable we want. When we use the docker run command we can pass a flag of -e to pass the container a variable, lets try that now. 
+
 `docker run -e DOG=POODLE printvar`{{execute}}
+
+As you can imagine, if we had multiple environment variables, volume mounts, args, etc. that we had to pass to our container, that docker run command could get long and ugly. Lucky for us, docker-compose exists!!
