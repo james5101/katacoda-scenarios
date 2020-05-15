@@ -4,4 +4,15 @@ Containers offer a logical packaging mechanism in which applications can be abst
 Lets open the Dockerfile and take a look at whats going on. We have a pretty simple dockerfile that pulls down a python image, adds out script to it then runs that script. 
 
 Lets try to build our image.
-`docker build -t printvar .
+`docker build -t printvar .`{{execute}}
+
+Next lets see if our image was created sucesfully.
+`docker images`{{execute}}
+
+We should see an image with a tag of printvar:latest. Excecellent
+
+Lets run our image and see our output.
+`docker run printvar`{{execute}}
+
+We should see some output, but we see `None` for the variable we want. When we use the docker run command we can pass a flag of -e to pass the container a variable, lets try that now. 
+`docker run -e DOG=POODLE printvar`
