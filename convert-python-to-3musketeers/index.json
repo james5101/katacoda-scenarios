@@ -12,10 +12,9 @@
           "target": "~/"
         },
         {
-          "file": "Dockerfile", 
+          "file": "printvar.py", 
           "target": "~/"
-        },
-        
+        }
       ] 
     },
   
