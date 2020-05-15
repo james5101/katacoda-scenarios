@@ -6,4 +6,4 @@ Lets try and run this application. The first thing we need to do is set the envi
 `export TEXT=DOG`{{execute}}
 
 After we set the environment variable lets run that script. 
-`python helloworld.py`{{execute}}
+`python3 helloworld.py`{{execute}}
