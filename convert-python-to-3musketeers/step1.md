@@ -1,0 +1,1 @@
+Lets review the python script. It is a simple python script that prints some text to stdout. 
