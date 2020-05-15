@@ -15,4 +15,4 @@ Lets run our image and see our output.
 `docker run printvar`{{execute}}
 
 We should see some output, but we see `None` for the variable we want. When we use the docker run command we can pass a flag of -e to pass the container a variable, lets try that now. 
-`docker run -e DOG=POODLE printvar`
+`docker run -e DOG=POODLE printvar`{{execute}}
