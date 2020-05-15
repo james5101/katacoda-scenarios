@@ -20,7 +20,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 Dockerize",
         "text": "step2.md"
       },
       {
@@ -47,6 +47,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "python"
+    "imageid": "docker"
   }
 }
