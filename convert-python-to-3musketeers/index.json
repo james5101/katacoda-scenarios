@@ -8,7 +8,7 @@
       "client": 
       [ 
         {
-          "file": "helloworld.py", 
+          "file": "printvar.py", 
           "target": "~/"
         }
       ] 
