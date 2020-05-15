@@ -2,20 +2,21 @@
   "title": "convert-python-to-3musketeers",
   "description": "Taking a single python file and implement the 3musketeers patterns",
   "difficulty": "Intermediate",
-  "time": "20",
-  "assets": { 
+  "time": "15",
+  "details": {
+    "assets": { 
       "client": 
       [ 
         {
           "file": "helloworld.py", 
           "target": "~/"
         }
-      
       ] 
     },
+  
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 Review Python Script",
         "text": "step1.md"
       },
       {
@@ -46,6 +47,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "docker"
   }
 }
