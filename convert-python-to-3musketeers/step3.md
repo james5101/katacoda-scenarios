@@ -5,7 +5,8 @@ Our next task will be to add docker-compose. In order to do this we need a docke
 ## Task
 Feel free to modify the docker-compose.yml file with any value for the ```DOG``` variable. After this lets run the command 
 `docker-compose build`{{execute}}
-### TIP The evnironment section is really useful when your container excepts multiple variables. The next iteration of the environment block is the use of an env file. Check out the course https://www.katacoda.com/james5101/scenarios/make-docker-compose-env-variables for more info on using an envfile with 3musketers. 
+
+***PRO-TIP The environment section is really useful when your container excepts multiple variables. The next iteration of the environment block is the use of an env file. Check out the course https://www.katacoda.com/james5101/scenarios/make-docker-compose-env-variables for more info on using an envfile with 3musketers.***
 
 The command above will produce a newly built printvars image. Let's run the following command to confirm our image built. 
 `docker images`{{execute}}
