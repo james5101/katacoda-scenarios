@@ -18,4 +18,5 @@ We have 1 more target that actually runs our container. This stage helps tremend
 
 `make up`{{execute}}
 
+Make really ties docker and docker-compose up. It gives the developers a single interface to interact with. 
 This concludes the Make section of this scenario. Head on over to https://3musketeers.io/docs/make.html to dive into Make.  
