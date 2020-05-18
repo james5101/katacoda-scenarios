@@ -8,6 +8,14 @@ Lets try and run this application. The first thing we need to do is set the envi
 After we set the environment variable lets run that script. 
 `python printvar.py`{{execute}}
 
+Well that didn't go as planned. We forgot to install our dependencies. If we want to distribute this script, we will have to let everyone know they need python installed! Lets get out dependinces added by running the following
+`apt-get update`{{execute}}
+`apt-get install python`{{execute}}
+
+If everything ran fine lets execute our script again
+
+`python printvar.py`{{execute}}
+
 If everything went well we should see some output on the screen. CONGRATS!
 
 So now that we have a working script, how do we distribute the script so that everyone can run it the same way everytime? DOCKER!!!
