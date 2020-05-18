@@ -14,6 +14,8 @@ Let's try and build our image via docker-compose and make. If you take a look at
 We can now pop ```make build``` into our CI/CD pipeline and run it locally the same exact way. 
 
 ## Task
-We have 1 more target that actually runs our container. This stage helps tremndeslouy when doing local development. We can make all of our iterative changes locally and do a quick ```make up``` to do a quick check on the applicaiton. This should run the same exact way as when its deployed since it is containzered. Let's run it and see what happens.
+We have 1 more target that actually runs our container. This stage helps tremendously when doing local development. We can make all of our iterative changes locally and do a quick ```make up``` to do a quick check on the applicaiton. This should run the same exact way as when its deployed since it is containzered. Let's run it and see what happens.
 
 `make up`{{execute}}
+
+This concludes the Make section of this scenario. Head on over to https://3musketeers.io/docs/make.html to dive into Make.  
