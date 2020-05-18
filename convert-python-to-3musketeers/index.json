@@ -18,6 +18,10 @@
         {
           "file": "docker-compose.yml", 
           "target": "~/"
+        },
+         {
+          "file": "Makefile", 
+          "target": "~/"
         }
       ] 
     },
