@@ -6,7 +6,7 @@ Lets try and run this application. The first thing we need to do is set the envi
 `export DOG=POODLE`{{execute}}
 
 After we set the environment variable lets run that script. 
-`python3 printvar.py`{{execute}}
+`python printvar.py`{{execute}}
 
 If everything went well we should see some output on the screen. CONGRATS!
 
