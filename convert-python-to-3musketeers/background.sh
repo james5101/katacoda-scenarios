@@ -1,1 +1,2 @@
-cd labs/
+cd /root/labs/
+ls -lrt
