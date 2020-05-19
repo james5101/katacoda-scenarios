@@ -58,6 +58,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "TBC"
+    "imageid": "ubuntu:1804"
   }
 }
