@@ -30,7 +30,7 @@
       {
         "title": "Step 1 Review Python Script",
         "text": "step1.md",
-        "answer": "hello"
+        "answer": "step1-answer.md"
       },
       {
         "title": "Step 2 Dockerize",
