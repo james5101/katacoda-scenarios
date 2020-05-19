@@ -37,20 +37,18 @@
       {
         "title": "Step 2 Dockerize",
         "text": "step2.md",
-        "answer": "step2-answer.md",
-        "code": "background.sh"
+        "answer": "step2-answer.md"
       },
       {
         "title": "Step 3 Docker-Compose",
         "text": "step3.md",
-        "answer": "step3-answer.md",
-        "code": "background.sh"
+        "answer": "step3-answer.md"
       },
       {
         "title": "Step 4 Makefile",
         "text": "step4.md",
-        "answer": "step4-answer.md",
-        "code": "background.sh"
+        "answer": "step4-answer.md"
+        
       }
     ],
     "intro": {

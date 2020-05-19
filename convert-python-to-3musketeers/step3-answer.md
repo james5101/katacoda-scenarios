@@ -3,7 +3,7 @@ version: '3'
 services:
   printvars:
     build: .
-    image: printvars:latest
+    image: printvars-compose:latest
     environment:
         - DOG=HUSKY
 ```

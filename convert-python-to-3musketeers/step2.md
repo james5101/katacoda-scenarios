@@ -13,7 +13,7 @@ For the next task let's add a few lines to the Dockerfile that will:
 ## Task
 After we edit the Dockerfile, let's try to build our image.
 
-`docker build -t printvar .`{{execute}}
+`docker build -t printvar-docker .`{{execute}}
 
 Next let's see if our image was created sucesfully.
 
@@ -24,10 +24,10 @@ We should see an image with a tag of printvar:latest. Excellent
 ## Task
 Lastly let's run our image and see our output.
 
-`docker run printvar`{{execute}}
+`docker run printvar-docker`{{execute}}
 
 We should see some output, but we see `None` for the variable we want. When we use the docker run command we can pass a flag of -e to pass the container a variable, lets try that now. 
 
-`docker run -e DOG=POODLE printvar`{{execute}}
+`docker run -e DOG=POODLE printvardocker`{{execute}}
 
 As you can imagine, if we had multiple environment variables, volume mounts, args, etc. that we had to pass to our container, that docker run command could get long and ugly. Lucky for us, docker-compose exists!!
