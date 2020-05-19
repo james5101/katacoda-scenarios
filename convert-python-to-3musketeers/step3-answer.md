@@ -1,3 +1,4 @@
+```
 version: '3'
 services:
   printvars:
@@ -5,4 +6,4 @@ services:
     image: printvars:latest
     environment:
         - DOG=HUSKY
-    
+```    
