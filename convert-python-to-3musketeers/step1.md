@@ -1,4 +1,4 @@
-Lets review the python script. It is a simple python script that prints some text to stdout. 
+Lets review the python script  `printvar.py`{{open}}. It is a simple python script that prints some text to stdout. 
 In line 1, we import the os package. Next, we create a variable called 'dog' and set it to the value of the environment variable DOG, and then lastly print a line to the scren.
 
 ## Task
