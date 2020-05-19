@@ -43,7 +43,8 @@
       },
       {
         "title": "Step 4 Makefile",
-        "text": "step4.md"
+        "text": "step4.md",
+        "answer": "step4-answer.md"
       }
     ],
     "intro": {

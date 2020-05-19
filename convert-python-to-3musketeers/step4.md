@@ -7,14 +7,15 @@ Our first target in our Makefile is a ```help``` target. This target will scan t
 `make help`{{execute}}
 
 ## Task
-Let's try and build our image via docker-compose and make. If you take a look at target named ```build```. You will see we have the same command as the previous scenario. We simply wrap that command into a make target and then call that target
+Let's create our first receipe inside of the `build` Make target. Add the correct docker-compose build command to the `build` target. After the makefile has been updated execute it using the following command:
 
 `make build`{{execute}}
 
 We can now pop ```make build``` into our CI/CD pipeline and run it locally the same exact way. 
 
 ## Task
-We have 1 more target that actually runs our container. This stage helps tremendously when doing local development. We can make all of our iterative changes locally and do a quick ```make up``` to do a quick check on the applicaiton. This should run the same exact way as when its deployed since it is containzered. Let's run it and see what happens.
+Let's create another receipe inside of the `up` Make target. Add the correct docker-compose up command to the `up` target. After the makefile has been updated execute it using the following command:
+
 
 `make up`{{execute}}
 
