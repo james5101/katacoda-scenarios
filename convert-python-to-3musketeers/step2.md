@@ -4,7 +4,10 @@ Containers offer a logical packaging mechanism in which applications can be abst
 Lets open the Dockerfile `Dockerfile`{{open}} and take a look at whats going on. We have a pretty simple dockerfile that pulls down a base python image. 
 
 ## Task
-For the next task let's add a few lines that will add our script to the root of the image and then execute that script. 
+For the next task let's add a few lines that will:
+1. Add our script to the root of the image - HINT use the ADD statement
+2. Execute that script - HINT use the CMD statement 
+
 *TIP-If you are stuck with what to add to the Dockerfile there is a "Show Solution" button at the bottom the scenario.*
 
 ## Task
