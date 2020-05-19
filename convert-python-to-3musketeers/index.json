@@ -1,4 +1,5 @@
 {
+  "noindex": true,
   "title": "convert-python-to-3musketeers",
   "description": "Taking a single python file and implement the 3musketeers patterns",
   "difficulty": "Intermediate",
