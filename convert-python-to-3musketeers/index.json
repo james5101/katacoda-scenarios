@@ -29,12 +29,12 @@
     "steps": [
       {
         "title": "Step 1 Review Python Script",
-        "text": "step1.md",
-        "answer": "step1-answer.md"
+        "text": "step1.md"
       },
       {
         "title": "Step 2 Dockerize",
-        "text": "step2.md"
+        "text": "step2.md",
+        "answer": "step2-answer.md"
       },
       {
         "title": "Step 3 Docker-Compose",
