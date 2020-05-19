@@ -8,10 +8,6 @@
       "client": 
       [
         {
-          "file": "background.sh", 
-          "target": "~/labs"
-        }, 
-        {
           "file": "printvar.py", 
           "target": "~/labs"
         },
