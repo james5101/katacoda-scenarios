@@ -4,19 +4,22 @@ Containers offer a logical packaging mechanism in which applications can be abst
 Lets open the Dockerfile `Dockerfile`{{open}} and take a look at whats going on. We have a pretty simple dockerfile that pulls down a base python image. 
 
 ## Task
-For the next task let's add a few lines that will add our script to the root of the image and then execute that script
+For the next task let's add a few lines that will add our script to the root of the image and then execute that script. 
+*TIP-If you are stuck with what to add to the Dockerfile there is a "Show Solution" button at the bottom the scenario.*
 
-Lets try to build our image.
+## Task
+After we edit the Dockerfile, let's try to build our image.
 
 `docker build -t printvar .`{{execute}}
 
-Next lets see if our image was created sucesfully.
+Next let's see if our image was created sucesfully.
 
 `docker images`{{execute}}
 
 We should see an image with a tag of printvar:latest. Excellent
 
-Lets run our image and see our output.
+## Task
+Lastly let's run our image and see our output.
 
 `docker run printvar`{{execute}}
 
