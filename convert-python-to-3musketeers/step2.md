@@ -28,6 +28,6 @@ Lastly let's run our image and see our output.
 
 We should see some output, but we see `None` for the variable we want. When we use the docker run command we can pass a flag of -e to pass the container a variable, lets try that now. 
 
-`docker run -e DOG=POODLE printvardocker`{{execute}}
+`docker run -e DOG=POODLE printvar-docker`{{execute}}
 
 As you can imagine, if we had multiple environment variables, volume mounts, args, etc. that we had to pass to our container, that docker run command could get long and ugly. Lucky for us, docker-compose exists!!
