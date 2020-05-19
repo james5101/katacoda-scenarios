@@ -38,7 +38,8 @@
       },
       {
         "title": "Step 3 Docker-Compose",
-        "text": "step3.md"
+        "text": "step3.md",
+        "answer": "step3-answer.md"
       },
       {
         "title": "Step 4 Makefile",

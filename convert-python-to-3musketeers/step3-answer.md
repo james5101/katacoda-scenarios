@@ -3,5 +3,6 @@ services:
   printvars:
     build: .
     image: printvars:latest
-    
+    environment:
+        - DOG=HUSKY
     

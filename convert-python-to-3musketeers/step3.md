@@ -1,14 +1,21 @@
 Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services (and their dependencies) from your configuration.  In 3 Musketeers, it also simplifies our Makefiles.
 
-Our next task will be to add docker-compose. In order to do this we need a docker-compose.yml file. We will keep this file rather simple. If you open the docker-compose.yml file, you will see we have a service named ```printvars```. Under printvars we have a build section (which builds our dockerfile), an image section (which tags our image), anf finally an environment section (where we define the environment variables we would like to pass to the container).
+Our next task will be to add docker-compose. In order to do this we need a docker-compose.yml file. We will keep this file rather simple. If you open the docker-compose.yml file `docker-compose.yml`{{open}}, you will see we have a service named ```printvars```. Under printvars we have a build section (which builds our dockerfile) and an image section (which tags our image).
 
 ## Task
-Feel free to modify the docker-compose.yml file with any value for the ```DOG``` variable. After this lets run the command 
-`docker-compose build`{{execute}}
+If you remember from the previous steps this script needs an environment variable to run correctly. We can pass environment variables to a container via a docker-compose environment block. Let's add a block to our docker-compose.yml file. 
+
+*TIP-If you are stuck with what to add to the Dockerfile there is a "Show Solution" button at the bottom the scenario.*
 
 ***PRO-TIP The environment section is really useful when your container excepts multiple variables. The next iteration of the environment block is the use of an env file. Check out the course https://www.katacoda.com/james5101/scenarios/make-docker-compose-env-variables for more info on using an envfile with 3musketers.***
 
+## Task
+After our editing of the docker-compose file, let's try and build the container.
+
+`docker-compose build`{{execute}}
+
 The command above will produce a newly built printvars image. Let's run the following command to confirm our image built. 
+
 `docker images`{{execute}}
 
 ## Task
