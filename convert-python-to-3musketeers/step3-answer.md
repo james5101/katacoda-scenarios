@@ -6,4 +6,4 @@ services:
     image: printvars:latest
     environment:
         - DOG=HUSKY
-```    
+```
