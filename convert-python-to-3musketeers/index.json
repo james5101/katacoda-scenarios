@@ -6,7 +6,11 @@
   "details": {
     "assets": { 
       "client": 
-      [ 
+      [
+        {
+          "file": "background.sh", 
+          "target": "~/"
+        }, 
         {
           "file": "printvar.py", 
           "target": "~/labs"
