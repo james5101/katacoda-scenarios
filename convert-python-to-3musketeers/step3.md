@@ -1,6 +1,6 @@
 Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services (and their dependencies) from your configuration.  In 3 Musketeers, it also simplifies our Makefiles.
 
-Our next task will be to add docker-compose. In order to do this we need a docker-compose.yml file. We will keep this file rather simple. If you open the docker-compose.yml file `docker-compose.yml`{{open}}, you will see we have a service named ```printvars```. Under printvars we have a build section (which builds our dockerfile) and an image section (which tags our image).
+Our next task will be to add docker-compose. In order to do this we need a docker-compose.yml file. We will keep this file rather simple. If you open the docker-compose.yml file `labs/docker-compose.yml`{{open}}, you will see we have a service named ```printvars```. Under printvars we have a build section (which builds our dockerfile) and an image section (which tags our image).
 
 ## Task
 If you remember from the previous steps this script needs an environment variable to run correctly. We can pass environment variables to a container via a docker-compose environment block. Let's add a block to our docker-compose.yml file. 
