@@ -30,7 +30,8 @@
     "steps": [
       {
         "title": "Step 1 Review Python Script",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "background.sh"
         
       },
       {
@@ -50,8 +51,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "background.sh"
+      "text": "intro.md"
+     
     },
     "finish": {
       "text": "finish.md"
