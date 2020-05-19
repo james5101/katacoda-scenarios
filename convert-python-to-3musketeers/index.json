@@ -9,7 +9,7 @@
       [
         {
           "file": "background.sh", 
-          "target": "~/"
+          "target": "~/labs"
         }, 
         {
           "file": "printvar.py", 
