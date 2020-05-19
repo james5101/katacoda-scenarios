@@ -9,19 +9,19 @@
       [ 
         {
           "file": "printvar.py", 
-          "target": "~/"
+          "target": "~/labs"
         },
         {
           "file": "Dockerfile", 
-          "target": "~/"
+          "target": "~/labs"
         },
         {
           "file": "docker-compose.yml", 
-          "target": "~/"
+          "target": "~/labs"
         },
          {
           "file": "Makefile", 
-          "target": "~/"
+          "target": "~/labs"
         }
       ] 
     },
