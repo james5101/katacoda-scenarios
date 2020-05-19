@@ -29,7 +29,8 @@
     "steps": [
       {
         "title": "Step 1 Review Python Script",
-        "text": "step1.md"
+        "text": "step1.md",
+        "answer": "hello"
       },
       {
         "title": "Step 2 Dockerize",
