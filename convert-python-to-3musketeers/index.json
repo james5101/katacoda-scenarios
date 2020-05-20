@@ -60,7 +60,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/labs",
+    "hideHiddenFiles": "true"
   },
   "backend": {
     "imageid": "ubuntu1904"
