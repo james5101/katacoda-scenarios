@@ -14,7 +14,7 @@ After our editing of the docker-compose file, let's try and build the container.
 
 `docker-compose build`{{execute}}
 
-The command above will produce a newly built printvars image. Let's run the following command to confirm our image built. 
+The command above will produce a newly built printvars-compose image. Let's run the following command to confirm our image built. 
 
 `docker images`{{execute}}
 

@@ -19,7 +19,7 @@ Next let's see if our image was created sucesfully.
 
 `docker images`{{execute}}
 
-We should see an image with a tag of printvar:latest. Excellent
+We should see an image with a tag of printvar-docker:latest. Excellent
 
 ## Task
 Lastly let's run our image and see our output.
