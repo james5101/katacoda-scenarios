@@ -10,19 +10,19 @@
       [
         {
           "file": "printvar.py", 
-          "target": "~/labs"
+          "target": "~/"
         },
         {
           "file": "Dockerfile", 
-          "target": "~/labs"
+          "target": "~/"
         },
         {
           "file": "docker-compose.yml", 
-          "target": "~/labs"
+          "target": "~/"
         },
          {
           "file": "Makefile", 
-          "target": "~/labs"
+          "target": "~/"
         }
       ] 
     },
@@ -60,7 +60,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/labs",
+    "uieditorpath": "/root",
     "hideHiddenFiles": "true"
   },
   "backend": {
