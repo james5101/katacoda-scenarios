@@ -36,7 +36,7 @@
   },
   "environment": {
       "uilayout": "editor-terminal",
-      "uieditorpath": "/root",
+      "uieditorpath": "/root/hello-world-spring-boot",
       "hideHiddenFiles": "true"
     },
   "backend": {
