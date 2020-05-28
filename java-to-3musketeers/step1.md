@@ -18,6 +18,6 @@ After its built and you see the jar, lets try and run it.
 
 After we run this lets open another terminal inside Katacoda and try and hit the endpoint:
 
-`curl localhost:8080`{{execute #T2}}
+`curl localhost:8080`{{execute "T2"}}
 
 And just like that we have a running sprint boot app! Now onto the fun stuff, Docker!

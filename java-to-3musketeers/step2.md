@@ -17,7 +17,7 @@ Lets build it!
 
 ## Task
 Lets run it!
-`docker run -p 8080:8080 springboot-docker`{{execute}}
+`docker run -p 8080:8080 javaspring-docker`{{execute}}
 
 ## Task 
 Test it!
