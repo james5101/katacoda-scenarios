@@ -12,13 +12,20 @@ Let's open the `Dockerfile`{{open}} and take a look at whats going on. It's a ra
 
 ## Task
 Lets build it!
-`docker build -t springboot-helloworld .`{{execute}}
+`docker build -t javaspring-docker .`{{execute}}
 
 
 ## Task
 Lets run it!
-`docker run -p 8080:8080 springboot-helloworld`{{execute}}
+`docker run -p 8080:8080 springboot-docker`{{execute}}
 
 ## Task 
 Test it!
-`curl localhost:8080`{{execute}}
+
+`curl localhost:8080`{{execute "T2"}}
+
+## Task
+Kill everything and remove images
+
+`docker rm -f $(docker ps -a -q)`{{execute}}
+`docker rmi -f $(docker images -a -q)`{{execute}}
