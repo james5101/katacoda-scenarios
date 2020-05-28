@@ -22,6 +22,12 @@ The command above will produce a newly built printvars-compose image. Let's run 
 Let's try and run our image now via docker-compose up. Docker-compose up builds, (re)creates, starts and attaches containers for a service. You could also run ```docker-compose run servicename``` for one-off/adhoc tasks.  
 `docker-compose up`{{execute}}
 
+## Task
+After creting our images and running our container we should be good samartians and clean up after ourselves. We can do so by running docker-compose down 
+`docker-compose down`{{execute}}
+
+
+
 This wraps up the section on docker-compose. Docker-compose is very powerful for running containers, for more info visit https://docs.docker.com/compose/. 
 
 Now, onto the last Musketeer, Make!
