@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "courseBash.sh"
       },
       {
         "title": "Step 2",
@@ -34,9 +35,11 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
-  },
+      "uilayout": "editor-terminal",
+      "uieditorpath": "/root",
+      "hideHiddenFiles": "true"
+    },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu1904"
   }
 }
