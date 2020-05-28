@@ -2,6 +2,7 @@ Lets review the java project. It is a simple java springboot application that di
 
 ## Task
 We will be building the jars today with gradle. The first step we need to perform is to build the jar. We will run the following command to genreate a jar. 
+`chmod u+x ./gradlew`{{execute}}
 
 `./gradlew build`{{execute}}
 
