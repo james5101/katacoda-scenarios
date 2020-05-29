@@ -20,6 +20,6 @@ After we run this lets open another terminal inside Katacoda and try and hit the
 
 `curl localhost:8080`{{execute T2}}
 
-`echo send ctrl-alt-del`{{execute interrupt}}
+`echo send ctrl-alt-del`{{execute interrupt T1}}
 
 And just like that we have a running sprint boot app! Now onto the fun stuff, Docker!
