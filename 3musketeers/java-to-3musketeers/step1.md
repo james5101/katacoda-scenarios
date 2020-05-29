@@ -20,6 +20,8 @@ After we run this let's open another terminal inside Katacoda and try and hit th
 
 `curl localhost:8080`{{execute T3}}
 
+We should see the output ```Greetings from Spring Boot!```.
+
 `echo Click Here to send ctrl-alt-del to Terminal 1`{{execute interrupt T1}}
 
 And just like that we have a running springboot application! The next logical step here would be to try and run this in a docker container so that it is more portable and not relying on dependencies. 
