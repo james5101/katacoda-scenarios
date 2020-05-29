@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 Review Java Project",
+        "title": "Step 1 Review Java Project and Run Jar",
         "text": "step1.md"
        
       },
