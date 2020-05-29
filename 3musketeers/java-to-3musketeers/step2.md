@@ -12,20 +12,20 @@ Let's open the `Dockerfile`{{open}} and take a look at whats going on. It's a ra
 
 ## Task
 Lets build it!
-`docker build -t javaspring-docker .`{{execute}}
+`docker build -t javaspring-docker .`{{execute T1}}
 
 
 ## Task
 Lets run it!
-`docker run -p 8080:8080 javaspring-docker`{{execute}}
+`docker run -p 8080:8080 javaspring-docker`{{execute T1}}
 
 ## Task 
 Test it!
 
-`curl localhost:8080`{{execute "T2"}}
+`curl localhost:8080`{{execute T3}}
 
 ## Task
 Kill everything and remove images
 
-`docker rm -f $(docker ps -a -q)`{{execute}}
-`docker rmi -f $(docker images -a -q)`{{execute}}
+`docker rm -f $(docker ps -a -q)`{{execute T1}}
+`docker rmi -f $(docker images -a -q)`{{execute T1}}

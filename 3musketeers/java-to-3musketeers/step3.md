@@ -5,17 +5,17 @@ Our next task will be to add docker-compose. In order to do this we need a docke
 ## Task
 We can use compose to orchestrate the build and run of our container with the 1 command
 
-`docker-compose up -d`{{execute}}
+`docker-compose up -d`{{execute T1}}
 
 This command is a lot cleaner than using the regular docker build and docker run commands. Docker-Compose allows us to declartivley run our containers by setting their configurations in the docker-compose.yml file. 
 
 ## Task 
 Let's try and hit our endpoint. 
 
-`curl localhost:8080`{{execute T2}}
+`curl localhost:8080`{{execute T3}}
 
 ## Task
 Docker-Compose will also do a bit of clean up for us with the ```down``` flag. It will stop and remove any items created by the ```up``` flag. 
 
-`docker-compose down --rmi all`{{execute}}
-`docker rmi -f $(docker images -a -q)`{{execute}}
+`docker-compose down --rmi all`{{execute T1}}
+`docker rmi -f $(docker images -a -q)`{{execute T1}}
