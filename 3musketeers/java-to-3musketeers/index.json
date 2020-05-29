@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Step 1 Review Java Project",
-        "text": "step1.md"
+        "text": "step1.md", 
+        "code": "cdDir.sh"
       },
       {
         "title": "Step 2 Dockerize",
