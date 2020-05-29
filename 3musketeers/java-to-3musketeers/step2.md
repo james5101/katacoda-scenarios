@@ -11,21 +11,25 @@ Let's open the `Dockerfile`{{open}} and take a look at whats going on. It's a ra
 7. Finally, execute the jar file
 
 ## Task
-Lets build it!
+Our first task will be to build the docker image based off of our Dockerfile. In order to do this, we call upon the ```docker build``` command. We will also pass in an argument of ```-t``` to tag the image and a ```.``` to use the current directory as the build context.
+
 `docker build -t javaspring-docker .`{{execute T1}}
 
-
 ## Task
-Lets run it!
+Now that we have the docker container built it's time to try and run the docker image. In order to do this, we will call the ```docker run``` command. We will also pass in an argument of ```-p``` to specify which ports will be exposed, as well as the image we created in the previous task  ```javaspring-docker```. It's done when you see ```welcomePageHandlerMapping``` 
+
 `docker run -p 8080:8080 javaspring-docker`{{execute T1}}
 
 ## Task 
-Test it!
+Now that we have a running container let's try and hit our endpoint. Clicking the below command will open up a new terminal to perform the curl. 
 
 `curl localhost:8080`{{execute T3}}
 
+We should see the output ```Greetings from Spring Boot!```.
+`echo Click Here to send ctrl-alt-del to Terminal 1`{{execute interrupt T1}}
+
 ## Task
-Kill everything and remove images
+Let's tidy up after ourselves so that we dont leave any orphaned containers. The following commands will remove the containers and the images. 
 
 `docker rm -f $(docker ps -a -q)`{{execute T1}}
 `docker rmi -f $(docker images -a -q)`{{execute T1}}
