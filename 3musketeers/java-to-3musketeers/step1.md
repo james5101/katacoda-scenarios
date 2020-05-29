@@ -12,12 +12,14 @@ After this gradle task completes we should have a jar file locatated under build
 
 `ls build/libs/`{{execute}}
 
-After its built and you see the jar, lets try and run it. 
+After its built and you see the jar, lets try and run it. It's done when you see ```welcomePageHandlerMapping``` 
 
 `java -jar build/libs/demo-0.0.1-SNAPSHOT.jar`{{execute}}
 
 After we run this lets open another terminal inside Katacoda and try and hit the endpoint:
 
-`curl localhost:8080`{{execute "T2"}}
+`curl localhost:8080`{{execute T2}}
+
+`echo send ctrl-alt-del`{{execute interrupt}}
 
 And just like that we have a running sprint boot app! Now onto the fun stuff, Docker!
