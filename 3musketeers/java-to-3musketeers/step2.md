@@ -29,7 +29,7 @@ We should see the output ```Greetings from Spring Boot!```.
 `echo Click Here to send ctrl-alt-del to Terminal 1`{{execute interrupt T1}}
 
 ## Task
-Let's tidy up after ourselves so that we dont leave any orphaned containers. The following commands will remove the containers and the images. 
+Let's tidy up after ourselves so that we don't leave any orphaned containers. The following commands will remove the containers and the images. 
 
 `docker rm -f $(docker ps -a -q)`{{execute T1}}
 `docker rmi -f javaspring-docker)`{{execute T1}}
