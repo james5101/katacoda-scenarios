@@ -8,9 +8,9 @@ Let's open the `Makefile`{{open}} and take a look around. First let's go through
 Let's move down the file until we get to our help target. We start off our first target with a ```.PHONY```. What does this mean? Pretty much make works on a file based system. PHONY means run this target even if there is a file named ```help``` in the directory. 
 *Note: For more information visit https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html. Note: this ```.PHONY``` could also be put at the top of the file, I put it here to make the file look cleaner.*
 
-Next, we we declare our first target. We named this first target ```help```. This is the name that we will call when we want to run this target. You will also see a line that seems to be commented out with ```##```. This will make more sense in a minute. 
+Next, we we declare our first target. We named this first target ```help```. The syntax is the name followed by a colon : ```help:```This is the name that we will call when we want to run this target. You will also see a line that seems to be commented out with ```##```. This will make more sense in a minute. 
 
-Ok, after we define the name of our target. We want to create our ```recipe```. Recipe is just a fancy name for the commands we would like our target to perform. In the case of the ```help``` target, its a grep and sed of our Makefile. This line simply scans our Makefile and parses it for anything that comes after a ```##``` and displays that to the screen. 
+Ok, after we define the name of our target. We want to create our ```recipe```. Recipe is just a fancy name for the commands we would like our target to perform. Note that Make is very strict when it comes to recipes and spacing. Always use a tab in your recipes.  In the case of the ```help``` target, its a grep and sed of our Makefile.```@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'``` This line simply scans our Makefile and parses it for anything that comes after a ```##``` and displays that to the screen. 
 *Note: Each recipe in a target is performed in a separate shell*
 
 Ok, now that we have a better understanding of how the Makefile is laid out, let's try and run our ```help target```. In order to run our target we just need to execute the following:
