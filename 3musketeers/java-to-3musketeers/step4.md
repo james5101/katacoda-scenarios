@@ -25,9 +25,14 @@ Let's jump into our next target ```up```. This target calls our DOCKER_COMPOSE v
 
 ## Task
 After you see the line ```Creating helloworldspringboot_javaspring_1 ... done``` let us try and test our endpoint. Rather than running a curl command directly from the terminal, We can create a make target that calls curl for us. Take a look at the target ```endpoint``` and run it.
+
 `make endpoint`{{execute T1}}
+We should see our application successfully respond with ```Greetings from Spring Boot!```
 
 ## Task
-Kill everything and remove images
+We won't go through all the targets but i just wanted to point out the targets ```build``` and ```run```. Instead of calling docker-compose up we could do those 2 tasks independently if we wanted to.
 
-`make down-compose`{{execute T1}}
+## Task
+Ok, so for our last task in this scenario, I would like the user to create a new make target called ```clean```. We want this target to clean up the container and image that we created with our last task. A nice feature would be to also add a help message to the target. Hint: the recipe could be ```docker-compose down --rmi all```. After this target is created run it. 
+
+`make down`{{execute T1}}
