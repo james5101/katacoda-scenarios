@@ -35,4 +35,4 @@ We won't go through all the targets but i just wanted to point out the targets `
 ## Task
 Ok, so for our last task in this scenario, I would like the user to create a new make target called ```clean```. We want this target to clean up the container and image that we created with our last task. A nice feature would be to also add a help message to the target. Hint: the recipe could be ```docker-compose down --rmi all```. After this target is created run it. 
 
-`make down`{{execute T1}}
+`make clean`{{execute T1}}
