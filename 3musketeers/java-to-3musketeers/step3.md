@@ -12,7 +12,7 @@ This command is a lot cleaner than using the regular docker build and docker run
 ## Task 
 Let's try and hit our endpoint. 
 
-`curl localhost:8080`{{execute T2}}
+`curl localhost:8080`{{execute T1}}
 
 We should see the output ```Greetings from Spring Boot!```.
 
