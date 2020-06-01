@@ -8,7 +8,7 @@ We will be building the jars today with gradle. The first step we need to perfor
 `./gradlew bootJar`{{execute T1}}
 
 
-After this gradle task completes we should have a jar file locatated under build/libs.
+After this gradle task completes we should have a jar file located under build/libs.
 
 `ls build/libs/`{{execute T1}}
 
