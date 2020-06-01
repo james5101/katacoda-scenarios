@@ -17,14 +17,15 @@ Ok, now that we have a better understanding of how the Makefile is laid out, let
 
 `make help`{{execute T1}}
 
-## Task 
-Run it!
-`make up-compose`{{execute T1}}
+## Task
+Let's jump into our next target ```up```. This target calls our DOCKER_COMPOSE variable which is set to our docker-compose binary and then passes the arguments of ```up```. This will build and run our image based off of our ```docker-compose``` file. We also want to run it in detached mode so we pass in an argument of ```-d```. Either type the command or click the button below to run this make target. 
+
+`make up`{{execute T1}}
 
 
 ## Task
-Test it
-`curl localhost:8080`{{execute T3}}
+After you see the line ```Creating helloworldspringboot_javaspring_1 ... done``` let us try and test our endpoint. Rather than running a curl command directly from the terminal, We can create a make target that calls curl for us. Take a look at the target ```endpoint``` and run it.
+`make endpoint`{{execute T1}}
 
 ## Task
 Kill everything and remove images
