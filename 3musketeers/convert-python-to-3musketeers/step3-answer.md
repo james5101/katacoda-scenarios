@@ -4,5 +4,5 @@
           build: .
           image: printvars-compose:latest
           environment:
-            - DOG=HUSKY
+            - DOG_BREED=HUSKY
 
