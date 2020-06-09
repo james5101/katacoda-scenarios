@@ -4,6 +4,6 @@
 * Implementation of 3 Musketeers can vary based on the needs of the team. 
 * The goal is consistency.
 
-**Pro-Tip - You do not have to use all 3 of the musketeers to be successfull, the whole point behind it is a uniformed development experience.**
+**Pro-Tip - You do not have to use all 3 of the musketeers to be successful, the whole point behind it is a uniformed development experience.**
 
 This concludes the intro course to the 3musketeers conventions. Stay tuned for more scenarios! 
