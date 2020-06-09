@@ -15,7 +15,7 @@ services:
 ```
 
 ## Task
-Next up, we have to update our Makefile receipe to call docker-compose instead of docker. Open up the Makefile and update the receipe to the following:
+Next up, we have to update our Makefile recipe to call docker-compose instead of docker. Open up the Makefile and update the recipe to the following:
 ```
 echo:
 	docker-compose run --rm alpine echo 'Hello, World!'
