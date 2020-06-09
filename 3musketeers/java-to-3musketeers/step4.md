@@ -1,4 +1,4 @@
-Make is a build automation tool that automatically builds programs and runs commands via the same interface. Make is installed on all distros of Unix/Linux operating systems. It is also available on Windows operating systems as well. Make obtains all its knowledge of how to build the program from a file called the ```Makefile```. This file contains ```targets``` that can be executed. For more in depth information on make go to the website https://www.gnu.org/software/make/manual/make.html
+Make is a build automation tool that automatically builds programs and runs commands via the same interface. Make is installed on all distros of Unix/Linux operating systems. It is also available on Windows operating systems. Make obtains all its knowledge of how to build the program from a file called the ```Makefile```. This file contains ```targets``` that can be executed. For more in depth information on make go to the website https://www.gnu.org/software/make/manual/make.html
 
 ## Task
 Let's open the `Makefile`{{open}} and take a look around. First let's go through the some of the basic layout of the Makefile. At the top you will see line 1 ```DOCKER_COMPOSE ?= docker-compose```. This line is simply setting a variable of DOCKER_COMPOSE to the docker-compose binary. 
@@ -24,7 +24,7 @@ Let's jump into our next target ```up```. This target calls our DOCKER_COMPOSE v
 
 
 ## Task
-After you see the line ```Creating helloworldspringboot_javaspring_1 ... done``` let us try and test our endpoint. Rather than running a curl command directly from the terminal, We can create a make target that calls curl for us. Take a look at the target ```endpoint``` and run it.
+After you see the line ```Creating helloworldspringboot_javaspring_1 ... done``` let us try and test our endpoint. Rather than running a curl command directly from the terminal, We can create a make target that calls curl for us. Take a look at the target ```endpoint``` and run it. This may take a minute or two to complete. 
 
 `make endpoint`{{execute T1}}
 We should see our application successfully respond with ```Greetings from Spring Boot!```

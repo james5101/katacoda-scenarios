@@ -11,7 +11,7 @@ Let's open the `Dockerfile`{{open}} and take a look at whats going on. It's a ra
 7. Finally, execute the jar file
 
 ## Task
-Our first task will be to build the docker image based off of our Dockerfile. In order to do this, we call upon the ```docker build``` command. We will also pass in an argument of ```-t``` to tag the image and a ```.``` to use the current directory as the build context.
+Our first task will be to build the docker image based off of our Dockerfile. In order to do this, we call upon the ```docker build``` command. We will also pass in an argument of ```-t``` to tag the image and a ```.``` to use the current directory as the build context. This may take a minute or two to complete. 
 
 `docker build -t javaspring-docker .`{{execute T1}}
 

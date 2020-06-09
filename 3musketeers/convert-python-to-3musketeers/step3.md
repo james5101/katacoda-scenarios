@@ -23,7 +23,7 @@ Let's try and run our image now via docker-compose up. Docker-compose up builds,
 `docker-compose up`{{execute}}
 
 ## Task
-After creting our images and running our container we should be good samartians and clean up after ourselves. We can do so by running docker-compose down 
+After creating our images and running our container we should be good samaritans and clean up after ourselves. We can do so by running docker-compose down 
 `docker-compose down`{{execute}}
 
 

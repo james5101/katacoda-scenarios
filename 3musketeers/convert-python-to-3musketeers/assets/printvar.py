@@ -1,5 +1,5 @@
 import os
 
-dog = os.getenv('DOG')
+breed = os.getenv('DOG_BREED')
 
-print('Hello, the DOG environment variable is set to : %s' % dog)
+print('The breed of the dog is: %s' % breed)
